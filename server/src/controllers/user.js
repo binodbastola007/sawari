@@ -132,6 +132,15 @@ const getRides = async(req,res) =>{
    }
 }
 
+const cancelRide = async(req,res)=>{
+  try{
+    const data = await Rides.findByIdAndUpdate(req.params.id,{$set :{status : 'rideCancelled'}})
+  }
+ catch(error){
+  console.log(error);
+ }
+}
+
 module.exports = {registerNewUser,loginUser , updateUsersDetails ,
    getUserById, uploadImage , getUserImage , registerVehicleInfo, getVehicleInfo,
-  getRides};    
+  getRides,cancelRide};    

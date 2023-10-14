@@ -2,7 +2,7 @@ const express = require('express')
 const router = express.Router()
 const {registerNewUser,loginUser , updateUsersDetails ,
    getUserById , uploadImage , getUserImage ,
-   getRides, registerVehicleInfo , getVehicleInfo} = require('../controllers/user')
+   getRides, registerVehicleInfo , getVehicleInfo, cancelRide } = require('../controllers/user')
 const multer  = require('multer')
 
 const storage = multer.diskStorage({
@@ -39,6 +39,8 @@ router.post('/vehicle-info',registerVehicleInfo)
 router.get('/vehicle-info',getVehicleInfo);
 
 router.get('/rides',getRides);
+
+router.put('/rides/:id',cancelRide)
 
 
 module.exports = router;

@@ -35,6 +35,7 @@ io.on('connection', (socket) => {
     const data = await Rides.find({status:'pending'}).sort({'createdAt':-1}).populate("user");
     io.emit("rides",data);
   })
+
   socket.on('accRide', async(rideInfo)=>{
     await Rides.findByIdAndUpdate(rideInfo.rideId,{
       $set : {status : 'rideAccepted' , rider:rideInfo.riderId}
