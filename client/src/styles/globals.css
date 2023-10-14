@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.navbar{
+    background-color: rgb(34 34 34);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 16vh;
+    width: 100vw;
+}
+.navbarLogin{
+    background-color: rgb(34 34 34);
+    display: flex;
+    align-items: center;
+    height: 16vh;
+    width: 100vw;
+
+}
+.logo
+{
+    border-radius: 10px;
+}
+.logoLogin{
+    border-radius: 10px;
+    margin-left: 80px;
+}
+.title{
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+}
+.titleLogin{
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    margin-left: 28%;
+}
+.btn{
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+  
+}
+.btn a{
+    margin:0px 15px;
+    background-color: yellowgreen ;
+    padding: 7px;
+    border-radius: 12px;
+}
+.body{
+    background-color:  rgb(255, 94, 0);
+    height: 120vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input{
+    display: flex;
+    margin : 10px 0px;
+    align-items: center;
+    justify-content: center;
+}
+.input input{
+    border: 2px solid black;
+    margin: 5px;
+    text-align: center;
+    padding: 5px;
+}
+.submitbtn{
+    margin:0px 15px;
+    background-color: yellowgreen ;
+    padding: 7px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+}
+.footbar{
+    margin:-35px auto;
+    width: 40vw;
+    height: 10vh;
+    background-color: rgb(34, 34, 34,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: white;
+}
+.reflink{
+    color: yellowgreen;
+    font-weight: bolder;
+}
+.map{
+    margin-top: 16px;
+}
+.buttonnav:hover{
+    background-color: yellowgreen;
+}
+.options{
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.acceptedCard{
+    background-color:white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 35%;
+}
+.acceptedCard>h1{
+    font-weight: bold;
+    font-size: 25px;
+}
+.acceptedCard p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#roles{
+    width: 100%;
+    padding: 7px;
+    border-radius: 10px;
+    margin: 4px;
+    text-align: center;
+}

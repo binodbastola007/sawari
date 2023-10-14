@@ -1,0 +1,22 @@
+.autocompleteBox{
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    margin: auto;
+   
+
+}
+.autocompleteList{
+    margin:10px;
+    border:1px solid black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+   
+}
+.autocompleteList:hover{
+    background-color: yellowgreen;
+    cursor: pointer;
+}
