@@ -7,8 +7,9 @@ Features of the project are :
 1) Distinct homepage for user and rider.
 2) Login and signup page.
 3) Guest-user.
-4) Ride Bargain.
-5) Easy navigation of google maps.
+4) Multiple vehicle options.
+5) Ride Bargain.
+6) Easy navigation of google maps.
 
 Screenshot of my project is shown below:
 ![Homepage](https://github.com/binodbastola007/Sawari/assets/102938200/35e33ed0-50d7-43d1-a053-63ffe2caad3e)
