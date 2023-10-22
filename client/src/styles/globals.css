@@ -101,6 +101,8 @@
 .map{
     margin-top: 16px;
 }
+
+
 .buttonnav:hover{
     background-color: yellowgreen;
 }
@@ -127,4 +129,35 @@
     border-radius: 10px;
     margin: 4px;
     text-align: center;
+}
+
+
+@media screen and (max-width:800px){
+    .navbar{
+     flex-direction: column;
+     height: max-content;
+    }
+    .navbar>img{
+        display: none;
+    }
+    .btn{
+        font-size: 18px;
+    }
+    .title{
+        font-size: 25px;
+    }
+    .map{
+        display: none;
+    }
+    .input {
+        display: flex;
+        flex-direction: column;
+    }
+    .submitbtn{
+        width: 100%;
+        margin:0px 0px;
+        padding: 3px;
+        font-size: 18px;
+    }
+  
 }

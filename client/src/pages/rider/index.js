@@ -108,7 +108,7 @@ const index = () => {
          (<p style={{textAlign:'center',fontWeight:'bolder',margin:'20px auto'}}>Hello Rider , Here are your ride requests </p>
           )               
       }
-        <div  style={{backgroundColor:"rgb(255, 94, 0)" ,width:'100%' ,display:'flex',flexWrap:'wrap',justifyContent:'center',alignItems:'center'}}>
+        <div  style={{backgroundColor:"rgb(255, 94, 0)" ,width:'100%' ,gap:"0px 50px",margin:'auto',display:'flex',flexWrap:'wrap',justifyContent:'center',alignItems:'center'}}>
 
         {availableRides.length>0 && availableRides.map((item,index) =>{
        return (

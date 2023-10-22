@@ -336,7 +336,7 @@ export default function Home() {
       <div className='map'>
           {isLoaded && 
             <GoogleMap
-          mapContainerStyle={containerStyle}
+          mapContainerStyle={containerStyle} 
           center={currentPos.lat ? currentPos : center}
           zoom={10}
         >
@@ -353,7 +353,7 @@ export default function Home() {
          (
           <div style={{backgroundColor:'rgba(0,0,0,0.2)' , width:'52%',
          padding:'5px 15px'}}>
-             <h1 style={{textAlign:'center',fontWeight:'bold'}}>Choose your vehicle</h1>
+             <h1 style={{textAlign:'center',fontWeight:'bold'}} >Choose your vehicle</h1>
             <div style={{display:'flex',flexDirection:'row',alignItems:'center',justifyContent:'center'}}>
             {vehicleInfoList.length>0 && vehicleInfoList.map((item)=>{
             return(
